@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Calculator app</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+
+</head>
+
+<body class="light">
+    <main>
+        <section class="header">
+            <h1>calc</h1>
+            <div class="toggle">
+                <small>THEME</small>
+                <div class="toggle-background">
+                    <input type="radio" class="theme theme1" name="theme" id="theme1" checked>
+                    <input type="radio" class="theme theme2" name="theme" id="theme2">
+                    <input type="radio" class="theme theme3" name="theme" id="theme3">
+
+                    <label class="circle circle1" for="theme1"> </label>
+                    <label class="circle circle2" for="theme2"> </label>
+                    <label class="circle circle3" for="theme3"> </label>
+
+                    <span class="switch"></span>
+                    </di>
+                </div>
+        </section>
+
+        <section class="result-display ">
+            <div data-input-text class="input"> </div>
+            <div data-result-text class="result"> </div>
+        </section>
+
+        <section class="keys ">
+
+            <button data-number class="key primary ">7</button>
+            <button data-number class="key primary ">8</button>
+            <button data-number class="key primary ">9</button>
+            <button data-delete class="key secondary ">DEL</button>
+            <button data-number class="key primary ">4</button>
+            <button data-number class="key primary ">5</button>
+            <button data-number class="key primary ">6</button>
+            <button data-operation class="key primary ">+</button>
+            <button data-number class="key primary ">1</button>
+            <button data-number class="key primary ">2</button>
+            <button data-number class="key primary ">3</button>
+            <button data-operation class="key primary ">-</button>
+            <button data-number class="key primary ">.</button>
+            <button data-number class="key primary ">0</button>
+            <button data-operation class="key primary ">/</button>
+            <button data-operation class="key primary ">x</button>
+            <button data-reset class="key secondary reset">RESET</button>
+            <button data-equals class="key equal ">=</button>
+
+        </section>
+    </main>
+
+
+</body>
+
+</html>
