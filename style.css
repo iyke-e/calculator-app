@@ -299,7 +299,7 @@ main {
     }
 }
 
-@media (max-width: 1400px) {
+@media (min-width: 481px) and (max-width: 1400px) {
     body {
         transform: scale(0.8);
     }
